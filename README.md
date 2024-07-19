@@ -1,5 +1,7 @@
-# Savory Diner Website
+live site link: 
+https://kab-alain.github.io/savory-Diner/
 
+# Savory Diner
 Welcome to the official repository for Savory Diner, your quintessential American diner experience.
 Whether you’re craving a hearty breakfast to start your day or a delicious late-night snack, we've got you covered.
 Step into our cozy booths, enjoy our retro decor, and savor the comfort food that’s been a staple for generations.
