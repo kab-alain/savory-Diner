@@ -1,0 +1,348 @@
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('interior-restaurant-interior-design-ballroom-tables-chairs-694066-wallhere.com.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+
+}
+
+
+.container {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.container h1 {
+  font-size: 45px;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  color: rgb(255, 0, 0);
+  font-weight: 50;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fdc54e;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00000000;
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #e0e0e0;
+  /* Lighter gray on hover */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content img{
+  width: 30px;
+  height: auto;
+}
+
+.dropdown .dropbtn::after {
+  content: '\25BE';
+  /* Unicode for down arrow */
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: #444;
+}
+
+img {
+  width: 200px;
+  height: 205px;
+}
+
+h2 {
+  font-family: Century;
+  font-size: 50px;
+  font-weight: 10;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.h33 {
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(218, 246, 255);
+  /* Background color */
+  padding: 15px 30px;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.h33:hover {
+  background-color: #f5b56c;
+}
+
+hr {
+  width: 50px;
+}
+
+.about {
+  text-align: center;
+  background-color: #e2ae76b2;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+h4 {
+  font-weight: 50;
+}
+
+p {
+  align-items: center;
+  max-width: 800px;
+  padding-left: 150px;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(218, 246, 255);
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 200px;
+}
+
+.drinks {
+
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('5cfd259df00f5f71ba3092541bfb4450.jpg');
+  background-position: center;
+  color: white;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.food {
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('pexels-photo-2313686.jpg');
+  background-position: center;
+  color: white;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2 {
+
+  font-weight: 30px;
+}
+
+.menu {
+  font-size: 23px;
+  font-family: serif;
+  font-weight: 150;
+  display: inline-block;
+  color: #ffffff;
+  background: none;
+  margin-left: 60px;
+}
+
+.gallery {
+
+  margin: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  background-color: rgb(252, 227, 150);
+
+}
+
+
+.gallery img {
+  width: 335px;
+  height: auto;
+}
+.gallery img:hover{
+  transform: scale(1.6);
+}
+.booking {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: 200px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+ 
+}
+
+.booking h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  font-weight: 100;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking label {
+  margin: 10px 0 5px 0;
+  width: 70%;
+  font-weight: 50;
+}
+
+.booking input[type="text"],
+.booking input[type="tel"],
+.booking input[type="time"],
+.booking input[type="date"],
+.booking select {
+  padding: 10px;
+  width: 50%;
+  border: none; 
+  color: white;
+  border-bottom: 2px solid white; 
+  border-radius: 0; 
+  background: transparent;
+}
+
+.booking input[type="submit"] {
+  padding: 10px 150px;
+  background-color: rgb(255, 163, 5);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.booking input[type="submit"]:hover {
+  background-color: #fdc54e;
+}
+#review {
+  margin-top: 100px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#review h2 {
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review {
+  background-color: #000000ba;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: left;
+}
+
+.review h3 {
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.review p {
+  color: #ffffff;
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+.footer {
+  margin-top: 200px;
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(108, 52, 19, 0.595);
+  color: rgba(255, 255, 255, 0.615);
+}
+.footer h1{
+  color: #ffffff;
+  font-size: 1.5em;
+  
+}
+.footer h2{
+  color: #ffffff;
+  font-size: 1em;
+}
